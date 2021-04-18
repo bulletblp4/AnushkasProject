@@ -1,6 +1,0 @@
-#!/bin/bash
-
-
-NOCOLOR='\e[0m'
-REDCOLOR='\e[37;41m'
-echo -e "$REDCOLOR testing post checkout $NOCOLOR"
