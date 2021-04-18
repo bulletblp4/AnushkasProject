@@ -1,0 +1,6 @@
+#!/bin/bash
+
+NOCOLOR='\e[0m'
+REDCOLOR='\e[37;41m'
+
+echo -e "$REDCOLOR composer.lock has changed. You must run composer install$NOCOLOR"
